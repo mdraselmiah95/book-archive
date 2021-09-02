@@ -22,8 +22,7 @@ searchBtn.addEventListener("click", function () {
 
 const displayBooks = (books) => {
   //Total search result
-  const totalResultFound = books.length;
-  totalResult.innerText = `Total search Result: ${totalResultFound}`;
+  totalResult.innerText = `Total Search Results: ${books.length}`;
   //Error handle
   if (books.length === 0) {
     alert("No result found.");
